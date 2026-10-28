@@ -16,7 +16,7 @@ app.get("/api/health", (req, res) => {
   // Tu implementación
   res.status(200).json({
     status: "ok",
-    message: "Servicio API funcionando correctamente",
+    message: "Servicio API esta funcionando correctamente",
   });
 });
 
